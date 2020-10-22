@@ -1,15 +1,26 @@
 {
-  "name": "MiniMemer",
+  "name": "ultrabot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "author": "Ultra - Developers",
+  "license": "MIT",
+  "engines": { "node": "12.x" },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "express": "^4.17.1",
+    "discord.js": "12.1.1",
+    "discord-akairo": "^8.0.0",
+    "ytdl-core-discord": "^1.2.0",
+    "discord-anti-spam": "^2.4.1",
+    "discord-giveaways": "^4.0.2",
+    "moment": "^2.25.3",
+    "discord-player": "^1.4.1",
+    "ffmpeg-static": "^4.2.1",
+    "@discordjs/opus": "^0.3.2",
+    "fs": "^0.0.2",
+    "ytdl-core": "^2.1.2",
+    "get-youtube-id": "^1.0.1"
   }
 }
